@@ -4,10 +4,10 @@ function Navbar() {
   return(
     <div className="navbar">
       <ul>
-        <Link to="/">トップ</Link>
-        <Link to="/overview">概要</Link>
-        <Link to="/download">ダウンロード</Link>
-        <Link to="/credit">クレジット</Link>
+        <li><Link to="/">トップ</Link></li>
+        <li><Link to="/overview">概要</Link></li>
+        <li><Link to="/download">ダウンロード</Link></li>
+        <li><Link to="/credit">クレジット</Link></li>
       </ul>
     </div>
   );
