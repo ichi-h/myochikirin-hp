@@ -1,0 +1,17 @@
+.navbar {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  width: 10rem;
+  margin: 0 2rem;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
