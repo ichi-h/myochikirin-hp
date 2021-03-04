@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../assets/css/Credit.css';
 import star from '../assets/img/star.jpg';
 
 class Credit extends React.Component {
