@@ -6,7 +6,6 @@ import Navbar from './components/Navbar.js';
 import Top from './components/Top.js';
 import Worldview from './components/Worldview.js';
 import Download from './components/Download.js';
-import Credit from './components/Credit.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -38,7 +37,6 @@ class App extends React.Component {
           <Route path="/" exact component={Top}></Route>
           <Route path="/worldview" component={Worldview}></Route>
           <Route path="/download" component={Download}></Route>
-          <Route path="/credit" component={Credit}></Route>
           <Navbar />
         </BrowserRouter>
         <div className="cover-bottom" />
