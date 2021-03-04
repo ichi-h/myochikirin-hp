@@ -1,13 +1,13 @@
 import React from 'react';
 
-import bar from '../assets/img/bar.jpg';
+import theme from '../assets/img/theme.jpg';
 
 class Overview extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      overviewStyle: { backgroundImage: `url(${bar})` }
+      overviewStyle: { backgroundImage: `url(${theme})` }
     };
   }
 

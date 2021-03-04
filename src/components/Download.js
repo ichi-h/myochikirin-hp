@@ -1,13 +1,13 @@
 import React from 'react';
 
-import fireworks from '../assets/img/fireworks.jpg';
+import bar from '../assets/img/bar.jpg';
 
 class Download extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      downloadStyle: { backgroundImage: `url(${fireworks})` }
+      downloadStyle: { backgroundImage: `url(${bar})` }
     };
   }
 

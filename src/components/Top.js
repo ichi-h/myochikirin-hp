@@ -1,6 +1,7 @@
 import React from 'react';
 
 import theme from '../assets/img/theme.jpg';
+import title from '../assets/img/title.png';
 import '../assets/css/Top.css';
 
 class Top extends React.Component {
@@ -14,7 +15,9 @@ class Top extends React.Component {
 
   render() {
     return (
-      <div className="top" style={this.state.topStyle} />
+      <div className="top" style={this.state.topStyle}>
+        <img className="title" src={title} alt="title"/>
+      </div>
     );
   }
 }
