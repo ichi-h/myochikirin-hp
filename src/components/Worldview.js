@@ -1,21 +1,21 @@
 import React from 'react';
 
-import '../assets/css/Concept.css'
+import '../assets/css/Worldview.css'
 import theme from '../assets/img/theme.jpg';
 
-class Concept extends React.Component {
+class Worldview extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      conceptStyle: { backgroundImage: `url(${theme})` }
+      worldviewStyle: { backgroundImage: `url(${theme})` }
     };
   }
 
   render() {
     return (
-      <div className="concept">
-        <div className="concept bg" style={this.state.conceptStyle} />
+      <div className="worldview">
+        <div className="worldview bg" style={this.state.worldviewStyle} />
         <div className="content">
           <h1>コンセプト</h1>
           <div className="explain">
@@ -43,4 +43,4 @@ class Concept extends React.Component {
   }
 }
 
-export default Concept;
+export default Worldview;
