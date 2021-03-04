@@ -1,3 +1,7 @@
+.credit.bg {
+  background-position: bottom;
+}
+
 .credit .scrollbar-container {
   width: 60vw;
   height: 60vh;

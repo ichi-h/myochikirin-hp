@@ -1,3 +1,7 @@
+.top.bg {
+  background-position: center;
+}
+
 .top .title {
   pointer-events: none;
 

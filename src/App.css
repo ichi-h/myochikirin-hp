@@ -22,9 +22,6 @@
   height: 100%;
 }
 
-  .top.bg, .concept.bg, .download.bg { background-position: center; }
-  .credit.bg { background-position: bottom; }
-
 .content {
   position: absolute;
   top: 50%;

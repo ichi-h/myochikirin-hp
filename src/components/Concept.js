@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../assets/css/Concept.css'
 import theme from '../assets/img/theme.jpg';
 
 class Concept extends React.Component {

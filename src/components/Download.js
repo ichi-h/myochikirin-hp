@@ -1,5 +1,6 @@
 import React from 'react';
 
+import '../assets/css/Download.css'
 import bar from '../assets/img/bar.jpg';
 
 class Download extends React.Component {
