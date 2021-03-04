@@ -21,6 +21,5 @@
   height: 100%;
 }
 
-  .top, .overview { background-position: center; }
-  .download { background-position: top 20% left 50%; }
+  .top, .overview, .download { background-position: center; }
   .credit { background-position: bottom; }
