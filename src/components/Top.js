@@ -1,8 +1,8 @@
 import React from 'react';
 
+import '../assets/css/Top.css';
 import theme from '../assets/img/theme.jpg';
 import title from '../assets/img/title.png';
-import '../assets/css/Top.css';
 
 class Top extends React.Component {
   constructor(props) {
