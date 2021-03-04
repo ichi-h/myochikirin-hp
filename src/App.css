@@ -5,6 +5,16 @@
   font-size: 2rem;
 }
 
+.switch-wrapper {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.switch-wrapper > div {
+  height: 100%;
+}
+
 .cover-top, .cover-bottom {
   position: absolute;
   width: 100%;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
+import { AnimatedSwitch } from 'react-router-transition';
 
 import './App.css';
 import Navbar from './components/Navbar.js';
@@ -34,9 +35,17 @@ class App extends React.Component {
       <div className="App" style={this.state.appStyle}>
         <div className="cover-top" />
         <BrowserRouter>
-          <Route path="/" exact component={Top}></Route>
-          <Route path="/worldview" component={Worldview}></Route>
-          <Route path="/download" component={Download}></Route>
+          <AnimatedSwitch
+            atEnter={{ opacity: 0 }}
+            atLeave={{ opacity: 0 }}
+            atActive={{ opacity: 1 }}
+            wrapperComponent="div"
+            className="switch-wrapper"
+          >
+            <Route path="/" exact component={Top}></Route>
+            <Route path="/worldview" component={Worldview}></Route>
+            <Route path="/download" component={Download}></Route>
+          </AnimatedSwitch>
           <Navbar />
         </BrowserRouter>
         <div className="cover-bottom" />
