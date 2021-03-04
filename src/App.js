@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom';
 
 import './App.css';
-import Navbar from './components/Navbar.js'
-import Top from './components/Top.js'
-import Concept from './components/Concept.js'
-import Download from './components/Download.js'
-import Credit from './components/Credit.js'
+import Navbar from './components/Navbar.js';
+import Top from './components/Top.js';
+import Concept from './components/Concept.js';
+import Download from './components/Download.js';
+import Credit from './components/Credit.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -14,7 +14,7 @@ class App extends React.Component {
 
     this.state = {
       appStyle: {}
-    }
+    };
   }
 
   componentDidMount() {
