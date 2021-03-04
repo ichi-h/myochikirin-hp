@@ -3,6 +3,10 @@
   opacity: 0.4;
 }
 
+.concept h1 {
+  margin-bottom: 1rem;
+}
+
 .explain p {
-  margin: 1rem 0;
+  margin-bottom: 2rem;
 }
