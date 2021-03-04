@@ -17,7 +17,7 @@
   .cover-top { top: 0; }
   .cover-bottom { bottom: 0; }
 
-.top, .overview, .download, .credit {
+.top, .concept, .download, .credit {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -28,5 +28,5 @@
   height: 100%;
 }
 
-  .top, .overview, .download { background-position: center; }
+  .top, .concept, .download { background-position: center; }
   .credit { background-position: bottom; }

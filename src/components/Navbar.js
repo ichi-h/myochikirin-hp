@@ -7,7 +7,7 @@ function Navbar() {
     <div className="navbar">
       <ul>
         <li><Link to="/">トップ</Link></li>
-        <li><Link to="/overview">概要</Link></li>
+        <li><Link to="/concept">コンセプト</Link></li>
         <li><Link to="/download">ダウンロード</Link></li>
         <li><Link to="/credit">クレジット</Link></li>
       </ul>

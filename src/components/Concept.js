@@ -2,19 +2,19 @@ import React from 'react';
 
 import theme from '../assets/img/theme.jpg';
 
-class Overview extends React.Component {
+class Concept extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      overviewStyle: { backgroundImage: `url(${theme})` }
+      conceptStyle: { backgroundImage: `url(${theme})` }
     };
   }
 
   render() {
     return (
-      <div className="overview" style={this.state.overviewStyle}>
-        <h1>概要</h1>
+      <div className="concept" style={this.state.conceptStyle}>
+        <h1>コンセプト</h1>
         <div className="explain">
           <p>
             この物語にストーリーはありません。<br/>
@@ -32,4 +32,4 @@ class Overview extends React.Component {
   }
 }
 
-export default Overview;
+export default Concept;
