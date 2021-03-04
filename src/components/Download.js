@@ -18,10 +18,19 @@ class Download extends React.Component {
         <div className="download bg" style={this.state.downloadStyle} />
         <div className="content">
           <h1>ダウンロード</h1>
-          <div className="windows"><button onClick="">Windows</button></div>
-          <div className="mac"><button onClick="">macOS</button></div>
-          <div className="spec">
-            <p>このゲームはWindows 10 Home、およびmacOS Catalina 10.15.7にて開発されました。</p>
+          <div className="windows">
+            <a className="download-button" onClick="">
+              <i className="icon-windows" /> Windows版 ダウンロード
+            </a>
+          </div>
+          <div className="mac">
+            <a className="download-button" onClick="">
+              <i className="icon-apple" /> macOS版 ダウンロード
+            </a>
+          </div>
+          <div className="addition">
+            <p>i) このゲームはOS付属ブラウザのレンダリングエンジンを使用します（Windows: Edge、macOS: Safari）。</p>
+            <p>ii) このゲームはWindows 10 Home、およびmacOS Catalina 10.15.7にて開発されました。</p>
           </div>
         </div>
       </div>
