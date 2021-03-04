@@ -1,4 +1,6 @@
 import React from 'react';
+import PerfectScrollbar from 'react-perfect-scrollbar'
+import 'react-perfect-scrollbar/dist/css/styles.css';
 
 import '../assets/css/Credit.css';
 import star from '../assets/img/star.jpg';
@@ -16,7 +18,7 @@ class Credit extends React.Component {
     return (
       <div className="credit" style={this.state.creditStyle}>
         <h1>クレジット</h1>
-        <div className="scroll">
+        <PerfectScrollbar>
           <div class="section">
             <h2>制作</h2>
             <p>いっぺー</p>
@@ -84,7 +86,7 @@ class Credit extends React.Component {
               </ul>
             </div>
           </div>
-        </div>
+        </PerfectScrollbar>
       </div>
     );
   }

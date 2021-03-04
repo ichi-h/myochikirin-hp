@@ -1,3 +1,32 @@
+.credit .scrollbar-container {
+  width: 60vw;
+  height: 60vh;
+}
+
 .credit li {
   list-style: none;
+}
+
+.ps__rail-y {
+  width: 0.8rem;
+  opacity: 0.6 !important;
+}
+
+.ps__thumb-y,
+.ps__rail-y:hover > .ps__thumb-y,
+.ps__rail-y:focus > .ps__thumb-y,
+.ps__rail-y.ps--clicking .ps__thumb-y {
+  background-color: #fbfaf5;
+  width: 0.8rem;
+}
+
+.ps-scrollbar-y-hover-width {
+  width: 0.8rem;
+}
+
+.ps .ps__rail-y:hover,
+.ps .ps__rail-y:focus,
+.ps .ps__rail-y.ps--clicking {
+  background: none !important;
+  opacity: 0.8 !important;
 }
