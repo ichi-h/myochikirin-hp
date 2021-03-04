@@ -33,6 +33,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App" style={this.state.appStyle}>
+        <div className="cover-top" />
         <BrowserRouter>
           <Route path="/" exact component={Top}></Route>
           <Route path="/overview" component={Overview}></Route>
@@ -40,6 +41,7 @@ class App extends React.Component {
           <Route path="/credit" component={Credit}></Route>
           <Navbar />
         </BrowserRouter>
+        <div className="cover-bottom" />
       </div>
     );
   }

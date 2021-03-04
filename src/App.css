@@ -4,6 +4,18 @@
   background-color: #020202;
 }
 
+.cover-top, .cover-bottom {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #020202;
+
+  z-index: 1;
+}
+
+  .cover-top { top: 0; }
+  .cover-bottom { bottom: 0; }
+
 .top, .overview, .download, .credit {
   width: 100%;
   height: 100%;
