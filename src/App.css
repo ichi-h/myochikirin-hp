@@ -17,6 +17,12 @@
   .cover-bottom { bottom: 0; }
 
 .top, .overview, .download, .credit {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
   width: 100%;
   height: 100%;
 }
