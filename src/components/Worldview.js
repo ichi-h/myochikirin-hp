@@ -17,7 +17,7 @@ class Worldview extends React.Component {
       <div className="worldview">
         <div className="worldview bg" style={this.state.worldviewStyle} />
         <div className="content">
-          <h1>コンセプト</h1>
+          <h1>世界観</h1>
           <div className="explain">
             <p>
               このノベルゲームにストーリーはありません。<br/>
