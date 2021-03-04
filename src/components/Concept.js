@@ -13,19 +13,22 @@ class Concept extends React.Component {
 
   render() {
     return (
-      <div className="concept" style={this.state.conceptStyle}>
-        <h1>コンセプト</h1>
-        <div className="explain">
-          <p>
-            この物語にストーリーはありません。<br/>
-            また、物語に関連した意図・メッセージといったものもありません。<br/>
-            いわばこのゲームは、「言葉遊び」の世界です。
-          </p>
-          <p>
-            ただひたすらに今を忘れ、<br/>
-            ちょっぴり不思議な夜の街の雰囲気に浸っていたい……。<br/>
-            そんなひと時をお届けするのが、「めうちきりんのメトロポリス」です。
-          </p>
+      <div className="concept">
+        <div className="concept bg" style={this.state.conceptStyle} />
+        <div className="content">
+          <h1>コンセプト</h1>
+          <div className="explain">
+            <p>
+              この物語にストーリーはありません。<br/>
+              また、物語に関連した意図・メッセージといったものもありません。<br/>
+              いわばこのゲームは、「言葉遊び」の世界です。
+            </p>
+            <p>
+              ただひたすらに今を忘れ、<br/>
+              ちょっぴり不思議な夜の街の雰囲気に浸っていたい……。<br/>
+              そんなひと時をお届けするのが、「めうちきりんのメトロポリス」です。
+            </p>
+          </div>
         </div>
       </div>
     );

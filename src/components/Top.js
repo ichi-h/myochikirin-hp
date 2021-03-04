@@ -15,8 +15,11 @@ class Top extends React.Component {
 
   render() {
     return (
-      <div className="top" style={this.state.topStyle}>
-        <img className="title" src={title} alt="title"/>
+      <div className="top">
+        <div className="top bg" style={this.state.topStyle} />
+        <div className="content">
+          <img className="title" src={title} alt="title"/>
+        </div>
       </div>
     );
   }

@@ -13,12 +13,15 @@ class Download extends React.Component {
 
   render() {
     return (
-      <div className="download" style={this.state.downloadStyle}>
-        <h1>ダウンロード</h1>
-        <div className="windows"><button onClick="">Windows</button></div>
-        <div className="mac"><button onClick="">macOS</button></div>
-        <div className="spec">
-          <p>このゲームはWindows 10 Home、およびmacOS Catalina 10.15.7にて開発されました。</p>
+      <div className="download">
+        <div className="download bg" style={this.state.downloadStyle} />
+        <div className="content">
+          <h1>ダウンロード</h1>
+          <div className="windows"><button onClick="">Windows</button></div>
+          <div className="mac"><button onClick="">macOS</button></div>
+          <div className="spec">
+            <p>このゲームはWindows 10 Home、およびmacOS Catalina 10.15.7にて開発されました。</p>
+          </div>
         </div>
       </div>
     );

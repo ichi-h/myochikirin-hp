@@ -18,15 +18,22 @@
   .cover-bottom { bottom: 0; }
 
 .top, .concept, .download, .credit {
+  width: 100%;
+  height: 100%;
+}
+
+  .top.bg, .concept.bg, .download.bg { background-position: center; }
+  .credit.bg { background-position: bottom; }
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-
-  width: 100%;
-  height: 100%;
 }
-
-  .top, .concept, .download { background-position: center; }
-  .credit { background-position: bottom; }
