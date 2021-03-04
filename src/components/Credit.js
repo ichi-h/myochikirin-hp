@@ -29,24 +29,30 @@ class Credit extends React.Component {
               <h2>使用素材</h2>
               <div class="item">
                 <h3>画像</h3>
-                <h4>Canva</h4>
-                <ul class="list">
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MADGv5rcu7M-woman-walking-in-the-street-during-night-time/">"夜の間に通りを歩いている女性"</a> by Aleksandar Pasaric</li>
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MAEEWnGpeF8-man-looking-out-of-window/">"Man looking out of window"</a> by ozgurdonmaz</li>
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MAEEE0qEB1E-female-retro-tin-toy-robot-portrait/">"Female Retro Tin Toy Robot Portrait"</a> by ThomasVogel</li>
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MADaAx-NWHE-milky-way-/">"天の川！"</a> by Sahil Malhotra</li>
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MAC5MsKKatU-cat-on-the-moon-background/">"Cat on the moon background"</a> by ks2009q</li>
-                </ul>
-                <h4>Unsplash</h4>
-                <ul class="list">
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/photos/_b4ppn1Ssgw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">"Downtown Park, Bellevue, United States"</a> by Elisha Terada</li>
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/photos/F-pSZO_jeE8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">"429 Cornelius Rd, Cerulean, KY 42215, USA, United States"</a> by Jongsun Lee</li>
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/photos/NwDSEPXr9og?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">"Downtown Bellevue at Night, Bellevue, United States"</a> by Dylan Mullins</li>
-                </ul>
-                <h4>写真AC</h4>
-                <ul class="list">
-                  <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.photo-ac.com/main/detail/1828030?title=%E3%83%90%E3%83%BC%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC&searchId=2565206629">"バーカウンター"</a> by 河童</li>
-                </ul>
+                <div className="maker">
+                  <h4>Canva</h4>
+                  <ul class="list">
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MADGv5rcu7M-woman-walking-in-the-street-during-night-time/">"夜の間に通りを歩いている女性"</a> by Aleksandar Pasaric</li>
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MAEEWnGpeF8-man-looking-out-of-window/">"Man looking out of window"</a> by ozgurdonmaz</li>
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MAEEE0qEB1E-female-retro-tin-toy-robot-portrait/">"Female Retro Tin Toy Robot Portrait"</a> by ThomasVogel</li>
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MADaAx-NWHE-milky-way-/">"天の川！"</a> by Sahil Malhotra</li>
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.canva.com/photos/MAC5MsKKatU-cat-on-the-moon-background/">"Cat on the moon background"</a> by ks2009q</li>
+                  </ul>
+                </div>
+                <div className="maker">
+                  <h4>Unsplash</h4>
+                  <ul class="list">
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/photos/_b4ppn1Ssgw?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">"Downtown Park, Bellevue, United States"</a> by Elisha Terada</li>
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/photos/F-pSZO_jeE8?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">"429 Cornelius Rd, Cerulean, KY 42215, USA, United States"</a> by Jongsun Lee</li>
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://unsplash.com/photos/NwDSEPXr9og?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink">"Downtown Bellevue at Night, Bellevue, United States"</a> by Dylan Mullins</li>
+                  </ul>
+                </div>
+                <div className="maker">
+                  <h4>写真AC</h4>
+                  <ul class="list">
+                    <li><a target="_blank" rel="nofollow noopener noreferrer" href="https://www.photo-ac.com/main/detail/1828030?title=%E3%83%90%E3%83%BC%E3%82%AB%E3%82%A6%E3%83%B3%E3%82%BF%E3%83%BC&searchId=2565206629">"バーカウンター"</a> by 河童</li>
+                  </ul>
+                </div>
               </div>
               <div class="item">
                 <h3>フォント</h3>
@@ -63,12 +69,14 @@ class Credit extends React.Component {
               </div>
               <div class="item">
                 <h3>SE</h3>
-                <h4>Freesound</h4>
-                <ul class="list">
-                  <li><a href="https://freesound.org/people/Zott820/sounds/209580/" target="_blank" rel="nofollow noopener noreferrer">"Entrance Bell"</a> by Zott820</li>
-                  <li><a href="https://freesound.org/people/davidbain/sounds/136778/" target="_blank" rel="nofollow noopener noreferrer">"Page Turn"</a> by davidbain</li>
-                  <li><a href="https://freesound.org/people/exterminat/sounds/164806/" target="_blank" rel="nofollow noopener noreferrer">"Page turns and book close/open"</a> by exterminat</li>
-                </ul>
+                <div className="maker">
+                  <h4>Freesound</h4>
+                  <ul class="list">
+                    <li><a href="https://freesound.org/people/Zott820/sounds/209580/" target="_blank" rel="nofollow noopener noreferrer">"Entrance Bell"</a> by Zott820</li>
+                    <li><a href="https://freesound.org/people/davidbain/sounds/136778/" target="_blank" rel="nofollow noopener noreferrer">"Page Turn"</a> by davidbain</li>
+                    <li><a href="https://freesound.org/people/exterminat/sounds/164806/" target="_blank" rel="nofollow noopener noreferrer">"Page turns and book close/open"</a> by exterminat</li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div class="section">
