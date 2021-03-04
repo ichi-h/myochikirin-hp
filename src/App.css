@@ -27,7 +27,7 @@
   .cover-top { top: 0; }
   .cover-bottom { bottom: 0; }
 
-.top, .worldview, .download {
+.top, .news, .worldview, .download {
   width: 100%;
   height: 100%;
 }

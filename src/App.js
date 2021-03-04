@@ -5,6 +5,7 @@ import { AnimatedSwitch } from 'react-router-transition';
 import './App.css';
 import Navbar from './components/Navbar.js';
 import Top from './components/Top.js';
+import News from './components/News.js'
 import Worldview from './components/Worldview.js';
 import Download from './components/Download.js';
 
@@ -43,6 +44,7 @@ class App extends React.Component {
             className="switch-wrapper"
           >
             <Route path="/" exact component={Top}></Route>
+            <Route path="/news" exact component={News}></Route>
             <Route path="/worldview" component={Worldview}></Route>
             <Route path="/download" component={Download}></Route>
           </AnimatedSwitch>
