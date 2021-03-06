@@ -29,6 +29,7 @@ class Worldview extends React.Component {
             <p>
               偶発的に鏤められた言葉の羅列と、<br/>
               飄々とした音楽に身を委ね、<br/>
+              綺麗な夜空が見える、<br/>
               ちょっぴり不思議な夜の街の雰囲気に浸っていたい……。
             </p>
             <p>
