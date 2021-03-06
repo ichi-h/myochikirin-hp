@@ -19,12 +19,12 @@ class Download extends React.Component {
         <div className="content">
           <h1>ダウンロード</h1>
           <div className="windows">
-            <a className="download-button" onClick="">
+            <a className="download-button" href="https://drive.google.com/file/d/1EpP1-4gOh90B9J5_vCKV4oNER7B5NZWE/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <i className="icon-windows" /> Windows版 ダウンロード
             </a>
           </div>
           <div className="mac">
-            <a className="download-button" onClick="">
+            <a className="download-button" href="https://drive.google.com/file/d/1ngekNsKTUR6KXRowd3qQcs3ozQ42TZ1W/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <i className="icon-apple" /> macOS版 ダウンロード
             </a>
           </div>
