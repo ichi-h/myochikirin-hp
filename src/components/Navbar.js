@@ -10,6 +10,7 @@ function Navbar() {
         <li><Link to="/news">お知らせ</Link></li>
         <li><Link to="/worldview">世界観</Link></li>
         <li><Link to="/download">ダウンロード</Link></li>
+        <li><Link to="/spec">スペック</Link></li>
       </ul>
     </div>
   );

@@ -8,6 +8,7 @@ import Top from './components/Top.js';
 import News from './components/News.js'
 import Worldview from './components/Worldview.js';
 import Download from './components/Download.js';
+import Spec from './components/Spec.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -47,6 +48,7 @@ class App extends React.Component {
             <Route path="/news" exact component={News}></Route>
             <Route path="/worldview" component={Worldview}></Route>
             <Route path="/download" component={Download}></Route>
+            <Route path="/spec" component={Spec}></Route>
           </AnimatedSwitch>
           <Navbar />
         </BrowserRouter>
