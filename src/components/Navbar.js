@@ -5,13 +5,21 @@ import '../assets/css/Navbar.css';
 function Navbar() {
   return(
     <div className="navbar">
-      <ul>
-        <li><Link to="/">トップ</Link></li>
-        <li><Link to="/news">お知らせ</Link></li>
-        <li><Link to="/worldview">世界観</Link></li>
-        <li><Link to="/download">ダウンロード</Link></li>
-        <li><Link to="/spec">スペック</Link></li>
-      </ul>
+      <div class="navbar-item">
+        <Link to="/">トップ</Link>
+      </div>
+      <div class="navbar-item">
+        <Link to="/news">お知らせ</Link>
+      </div>
+      <div class="navbar-item">
+        <Link to="/worldview">世界観</Link>
+      </div>
+      <div class="navbar-item">
+        <Link to="/download">ダウンロード</Link>
+      </div>
+      <div class="navbar-item">
+        <Link to="/spec">スペック</Link>
+      </div>
     </div>
   );
 }

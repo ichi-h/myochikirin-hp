@@ -4,22 +4,35 @@
   right: 50%;
   transform: translateX(50%);
 
-  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  width: 100vw;
   z-index: 2;
 }
 
-.navbar li {
-  list-style: none;
-  display: inline-block;
-  width: 12vw;
+.navbar-item {
+  min-width: 15rem;
 }
 
-.navbar li a {
+.navbar-item a {
   text-decoration: none;
   color: #fbfaf5;
 }
 
-.navbar li a:hover {
+.navbar-item a:hover {
   border-bottom: 2px solid #fbfaf5;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar {
+    justify-content: left;
+    align-items: left;
+    overflow-x: scroll;
+  }
+
+  .navbar-item {
+    min-width: 15rem;
+  }
 }
