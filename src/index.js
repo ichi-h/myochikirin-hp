@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import firebase from 'firebase/app';
-import 'firebase/firebase-storage';
 import './index.css';
 import './fontello.css'
 import App from './App';
