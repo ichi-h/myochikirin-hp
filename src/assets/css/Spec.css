@@ -1,3 +1,9 @@
 .spec p {
   margin-bottom: 2rem;
 }
+
+.spec-summary {
+  width: 100%;
+  max-height: 60vh;
+  overflow-y: scroll;
+}
