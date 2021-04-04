@@ -37,13 +37,13 @@ class Download extends React.Component {
   onClickButton(e) {
     switch (e.target.value) {
       case 'windows':
-        console.log('windows');
-        // this.downloadFile("めうちきりんのメトロポリス_for_win.zip");
+        this.downloadFile("めうちきりんのメトロポリス_for_win.zip");
         break
+
       case 'mac':
-        console.log('mac');
-        // this.downloadFile("めうちきりんのメトロポリス_for_mac.zip");
+        this.downloadFile("めうちきりんのメトロポリス_for_mac.zip");
         break
+
       default:
         // do nothing
     }
