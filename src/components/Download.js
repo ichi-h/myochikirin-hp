@@ -13,7 +13,22 @@ class Download extends React.Component {
     };
   }
 
-  downloadFile(filePath) {
+  onClickButton(e) {
+    let filePath;
+
+    switch (e.target.value) {
+      case 'windows':
+        filePath = "めうちきりんのメトロポリス_for_win.zip";
+        break
+
+      case 'mac':
+        filePath = "めうちきりんのメトロポリス_for_mac.zip";
+        break
+
+      default:
+        // do nothing
+    }
+
     let storage = firebase.storage();
     let storageRef = storage.ref();
     let spaceRef = storageRef.child(filePath);
@@ -32,21 +47,6 @@ class Download extends React.Component {
     }).catch(function(error) {
       alert(error.message);
     })
-  }
-
-  onClickButton(e) {
-    switch (e.target.value) {
-      case 'windows':
-        this.downloadFile("めうちきりんのメトロポリス_for_win.zip");
-        break
-
-      case 'mac':
-        this.downloadFile("めうちきりんのメトロポリス_for_mac.zip");
-        break
-
-      default:
-        // do nothing
-    }
   }
 
   render() {
