@@ -12,6 +12,21 @@
   margin-bottom: 1rem;
 }
 
-.news .table {
+.news-list {
   text-align: left;
+  max-height: 60vh;
+}
+
+.news-list ul ul {
+  margin-left: 2.5rem;
+}
+
+.list-item {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 550px) {
+  .news-list ul ul {
+    margin-left: 2rem;
+  }
 }

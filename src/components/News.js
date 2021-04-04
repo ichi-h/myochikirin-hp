@@ -18,9 +18,18 @@ class News extends React.Component {
         <div className="news bg" style={this.state.newsStyle} />
         <div className="content">
           <h1>お知らせ</h1>
-          <div className="table">
+          <div className="news-list">
             <ul>
-              <li>2021/3/4: 公式サイト、ゲーム公開</li>
+              <div className="list-item">
+                <li>2021/4/4: v1.0.1の公開</li>
+                <ul>
+                  <li>コードの修正</li>
+                  <li>あとがきの改訂</li>
+                </ul>
+              </div>
+              <div className="list-item">
+                <li>2021/3/4: 公式サイト、ゲーム公開</li>
+              </div>
             </ul>
           </div>
         </div>
