@@ -34,6 +34,19 @@ class Download extends React.Component {
     })
   }
 
+  onClickButton(e) {
+    switch (e.target.value) {
+      case 'windows':
+        console.log('windows');
+        // this.downloadFile("めうちきりんのメトロポリス_for_win.zip");
+        break
+      case 'mac':
+        console.log('mac');
+        // this.downloadFile("めうちきりんのメトロポリス_for_mac.zip");
+        break
+    }
+  }
+
   render() {
     return (
       <div className="download">
@@ -41,14 +54,14 @@ class Download extends React.Component {
         <div className="content">
           <h1>ダウンロード</h1>
           <div className="windows">
-            <a className="download-button" href="javascript:void(0);" onClick={() => this.downloadFile("めうちきりんのメトロポリス_for_win.zip")}>
+            <button className="download-button" value="windows" onClick={this.onClickButton}>
               <i className="icon-windows" /> Windows版 ダウンロード
-            </a>
+            </button>
           </div>
           <div className="mac">
-            <a className="download-button" href="javascript:void(0);" onClick={() => this.downloadFile("めうちきりんのメトロポリス_for_mac.zip")}>
+            <button className="download-button" value="mac" onClick={this.onClickButton}>
               <i className="icon-apple" /> macOS版 ダウンロード
-            </a>
+            </button>
           </div>
           <div className="addition">
             <p>i) このゲームはOS付属ブラウザのレンダリングエンジンを使用します（Windows: Edge、macOS: Safari）。</p>
