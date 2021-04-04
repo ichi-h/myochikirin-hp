@@ -44,6 +44,8 @@ class Download extends React.Component {
         console.log('mac');
         // this.downloadFile("めうちきりんのメトロポリス_for_mac.zip");
         break
+      default:
+        // do nothing
     }
   }
 
