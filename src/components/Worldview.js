@@ -24,7 +24,7 @@ class Worldview extends React.Component {
               また、詩のように独特のリズムを持つようなものでもありません。
             </p>
             <p>
-              このゲームはいわば、<span style={{ fontSize: "3rem" }}> <u>言葉遊び</u> </span>の世界です。
+              このゲームはいわば、<span className="text-large"> <u>言葉遊び</u> </span>の世界です。
             </p>
             <p>
               偶発的に鏤められた言葉の羅列と、<br/>
@@ -33,8 +33,12 @@ class Worldview extends React.Component {
               ちょっぴり不思議な夜の街の雰囲気に浸っていたい……。
             </p>
             <p>
-              そんなひと時をお届けするのが、<br/>
-              <span style={{ fontSize: "4rem", fontFamily: "pigmo" }}>めうちきりんのメトロポリス</span><br/>
+              そんなひと時をお届けするのが、
+              <p className="text-title">
+                <span className="myochikirin">めうちきりん</span>
+                <span className="no">の</span>
+                <span className="metropolis">メトロポリス</span>
+              </p>
               です。
             </p>
           </div>
