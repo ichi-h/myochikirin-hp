@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import firebase from 'firebase/app';
 import 'firebase/firebase-storage';
-import 'firebase/analytics';
 import './index.css';
 import './fontello.css'
 import App from './App';
@@ -15,18 +14,16 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-var firebaseConfig = {
-  apiKey: "AIzaSyB3IwhvS4uNH4-40EAIIOFs40EueT2MwPM",
-  authDomain: "myochikirin-hp.firebaseapp.com",
-  projectId: "myochikirin-hp",
-  storageBucket: "myochikirin-hp.appspot.com",
-  messagingSenderId: "695630528849",
-  appId: "1:695630528849:web:d68af7bcbba86edb7dd370",
-  measurementId: "G-CN6SZ8Y5PJ"
+const firebaseConfig = {
+  apiKey: "AIzaSyCScbzQJOJwndGPyU3Db_wAsWtmV9i6cLM",
+  authDomain: "myochikirin-hp-14b0d.firebaseapp.com",
+  projectId: "myochikirin-hp-14b0d",
+  storageBucket: "myochikirin-hp-14b0d.appspot.com",
+  messagingSenderId: "1078840520799",
+  appId: "1:1078840520799:web:9b14c7a2efd355938babea"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
