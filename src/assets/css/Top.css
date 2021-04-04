@@ -20,3 +20,9 @@
 
   width: 60vw;
 }
+
+@media screen and (max-width: 1050px) {
+  .top .title {
+    width: 80vw;
+  }
+}
