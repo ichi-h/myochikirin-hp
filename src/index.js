@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import firebase from 'firebase/app';
-import './index.css';
-import './fontello.css'
+import './assets/css/index.css';
+import './assets/css/fontello.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
 
-import './App.css';
+import './assets/css/App.css';
 import Navbar from './components/Navbar.js';
 import Top from './components/Top.js';
 import News from './components/News.js'
