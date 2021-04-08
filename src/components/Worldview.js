@@ -34,11 +34,13 @@ class Worldview extends React.Component {
             </p>
             <p>
               そんなひと時をお届けするのが、
-              <p className="text-title">
-                <span className="myochikirin">めうちきりん</span>
-                <span className="no">の</span>
-                <span className="metropolis">メトロポリス</span>
-              </p>
+            </p>
+            <p className="text-title">
+              <span className="myochikirin">めうちきりん</span>
+              <span className="no">の</span>
+              <span className="metropolis">メトロポリス</span>
+            </p>
+            <p>
               です。
             </p>
           </div>
