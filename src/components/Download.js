@@ -37,16 +37,23 @@ class Download extends React.Component {
     spaceRef.getDownloadURL().then(function(url) {
       let xhr = new XMLHttpRequest();
       xhr.responseType = 'blob';
-      xhr.onload = function(event) {
-        // let blob = xhr.response;
+
+      xhr.onload = function() {
+        window.location.href = url;
       };
+
+      xhr.onerror = function() {
+        alert(
+          'ダウンロードに失敗しました。\n' +
+          `${xhr.status}: ${xhr.statusText}`
+        );
+      }
+
       xhr.open('GET', url);
       xhr.send();
 
-      window.location.href = url;
-
     }).catch(function(error) {
-      alert(error.message);
+      alert('ダウンロードに失敗しました。\n' + error.message);
     })
   }
 
