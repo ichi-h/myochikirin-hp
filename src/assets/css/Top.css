@@ -21,6 +21,29 @@
   width: 60vw;
 }
 
+.loading {
+  position: relative;
+  background-color: #020202;
+  width: 100%;
+  height: 100%;
+  z-index: 10000;
+  transition: .5s;
+}
+
+  .loading-text {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    font-size: 2rem;
+    animation: loading 3s linear infinite;
+  }
+
+    @keyframes loading {
+      0%   { opacity: 1; }
+      50%  { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
 @media screen and (max-width: 1050px) {
   .top .title {
     width: 80vw;
