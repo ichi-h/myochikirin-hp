@@ -11,7 +11,6 @@ URL: [https://myochikirin.ippee-music.com/](https://myochikirin.ippee-music.com/
 ### 概要
 - フロントエンド
   - React
-    - create-react-app
   - CSS
     - レスポンシブ対応
 - バックエンド
@@ -31,4 +30,6 @@ URL: [https://myochikirin.ippee-music.com/](https://myochikirin.ippee-music.com/
   - App.js
     - ページトランジションやrouterの管理するコンポーネント
   - index.js
-    - ReactDOMのレンダリング、Firebaseの設定を管理するコンポーネント
+    - ReactDOMのレンダリングを管理するコンポーネント
+  - firebase.js
+    - Firebaseの設定を管理するファイル
