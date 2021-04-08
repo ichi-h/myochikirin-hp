@@ -29,8 +29,6 @@
 .text-title {
   font-size: 4rem;
   font-family: "pigmo";
-  margin-top: 1rem;
-  margin-bottom: 1rem !important;
 }
 
 @media screen and (max-width: 550px) {
