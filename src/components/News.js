@@ -21,6 +21,12 @@ class News extends React.Component {
           <div className="news-list">
             <ul>
               <div className="list-item">
+                <li>2021/5/24: v1.0.2の公開</li>
+                <ul>
+                  <li>あとがきの改訂</li>
+                </ul>
+              </div>
+              <div className="list-item">
                 <li>2021/4/4: v1.0.1の公開</li>
                 <ul>
                   <li>コードの修正</li>
