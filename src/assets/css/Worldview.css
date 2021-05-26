@@ -18,6 +18,13 @@
   overflow-y: scroll;
 }
 
+.explain .player {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
 .explain p {
   margin-bottom: 2rem;
 }

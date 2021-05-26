@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from "react-player";
 
 import '../assets/css/Worldview.css'
 import theme from '../assets/img/theme.jpg';
@@ -19,6 +20,9 @@ class Worldview extends React.Component {
         <div className="content">
           <h1>世界観</h1>
           <div className="explain">
+            <div className="player">
+              <ReactPlayer url="https://soundcloud.com/ippee/yrxrjxqhpzi7" height="180px" />
+            </div>
             <p>
               このノベルゲームにストーリーはありません。<br/>
               また、詩のように独特のリズムを持つようなものでもありません。
