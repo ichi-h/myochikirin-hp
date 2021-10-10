@@ -11,10 +11,6 @@ import Download from './components/Download.js';
 import Spec from './components/Spec.js';
 
 class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
       <div className="App">
