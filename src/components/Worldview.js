@@ -24,11 +24,18 @@ class Worldview extends React.Component {
               <ReactPlayer url="https://soundcloud.com/ippee/yrxrjxqhpzi7" height="180px" />
             </div>
             <p>
-              このノベルゲームにストーリーはありません。<br/>
+              この地球のどこかに<br/>
+              綺麗な夜空が見られるという<br/>
+              「めうちきりん」な街があるらしい――
+            </p>
+            <p>====================</p>
+            <p>
+              このノベルゲームには、<br/>
+              シナリオやストーリーといったものは存在しません。<br/>
               また、詩のように独特のリズムを持つようなものでもありません。
             </p>
             <p>
-              このゲームはいわば、<span className="text-large"> <u>言葉遊び</u> </span>の世界です。
+              このゲームはいわば、<span className="text-large"><u>言葉遊び</u> </span>の世界です。
             </p>
             <p>
               偶発的に鏤められた言葉の羅列と、<br/>
