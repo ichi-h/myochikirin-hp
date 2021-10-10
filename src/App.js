@@ -13,28 +13,11 @@ import Spec from './components/Spec.js';
 class App extends React.Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      appStyle: {}
-    };
-  }
-
-  componentDidMount() {
-    let docElm = document.documentElement;
-    let clientWidth = docElm.clientWidth;
-    let clientHeihgt = docElm.clientHeight;
-
-    let style = {
-      width: clientWidth,
-      height: clientHeihgt
-    }
-
-    this.setState({ appStyle: style })
   }
 
   render() {
     return (
-      <div className="App" style={this.state.appStyle}>
+      <div className="App">
         <div className="cover-top" />
         <BrowserRouter>
           <AnimatedSwitch

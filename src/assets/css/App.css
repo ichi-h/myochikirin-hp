@@ -3,6 +3,8 @@
   text-align: center;
   background-color: #020202;
   font-size: 2rem;
+  width: 100vw;
+  height: 100vh;
 }
 
 .switch-wrapper {
