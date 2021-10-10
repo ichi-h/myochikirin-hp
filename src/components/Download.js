@@ -1,6 +1,5 @@
 import React from 'react';
-import firebase from 'firebase/app'
-import 'firebase/storage';
+import { getStorage, ref, getDownloadURL } from 'firebase/storage';
 
 import '../assets/css/Download.css'
 import bar from '../assets/img/bar.jpg';
@@ -19,39 +18,27 @@ class Download extends React.Component {
 
     switch (e.target.value) {
       case 'windows':
-        filePath = "めうちきりんのメトロポリス_for_win.zip";
+        filePath = 'gs://myochikirin-hp-403bf.appspot.com/めうちきりんのメトロポリス_for_win.zip';
         break
 
       case 'mac':
-        filePath = "めうちきりんのメトロポリス_for_mac.zip";
+        filePath = 'gs://myochikirin-hp-403bf.appspot.com/めうちきりんのメトロポリス_for_mac.zip';
         break
 
       default:
         // do nothing
     }
 
-    let storage = firebase.storage();
-    let storageRef = storage.ref();
-    let spaceRef = storageRef.child(filePath);
-
-    spaceRef.getDownloadURL().then(function(url) {
-      let xhr = new XMLHttpRequest();
+    let storage = getStorage();
+    console.log(ref(storage, filePath));
+    getDownloadURL(ref(storage, filePath)).then((url) => {
+      const xhr = new XMLHttpRequest();
       xhr.responseType = 'blob';
-
-      xhr.onload = function() {
+      xhr.onload = () => {
         window.location.href = url;
       };
-
-      xhr.onerror = function() {
-        alert(
-          'ダウンロードに失敗しました。\n' +
-          `${xhr.status}: ${xhr.statusText}`
-        );
-      }
-
       xhr.open('GET', url);
       xhr.send();
-
     }).catch(function(error) {
       alert('ダウンロードに失敗しました。\n' + error.message);
     })
