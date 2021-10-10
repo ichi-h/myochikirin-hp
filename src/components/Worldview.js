@@ -21,7 +21,7 @@ class Worldview extends React.Component {
           <h1>世界観</h1>
           <div className="explain">
             <div className="player">
-              <ReactPlayer url="https://soundcloud.com/ippee/yrxrjxqhpzi7" height="180px" />
+              <ReactPlayer url="https://soundcloud.com/xvahmbk5syft/p0owqmeiguu1" height="180px" />
             </div>
             <p>
               この地球のどこかに<br/>
